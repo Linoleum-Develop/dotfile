@@ -1,2 +1,2 @@
 # dotfile
-Personal configuration
+Personal configuration to used on ~/.config/
