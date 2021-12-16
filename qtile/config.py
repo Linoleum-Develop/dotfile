@@ -98,6 +98,9 @@ keys = [
     # Auxiliar app launcher
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
 
+    # Take screnshot
+    #Key([], "Print", lazy.spawn("scrot ~/Pictures/screenshot/")),
+    Key([], "Print", lazy.spawn('xfce4-screenshooter')),
 ##Device shortcut
     #Key([], "XF86AudioRaiseVolume",
     #    lazy.spawn("amixer -q set Master 3dB+")),
